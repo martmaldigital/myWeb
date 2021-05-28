@@ -7,21 +7,22 @@
     <meta name="description" content="A self information site">
     <meta name="author" content="Matthew Aloba">
     <title>Matthew Aloba | A brief summary of self</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <link rel="stylesheet" type="text/css" href="/style/modal.css">
 </head>
 <body>
   <header>
    <div id="side-menu" class="side-nav">
-  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+  <a href="#" class="btn-close" id="nav-close">&times;</a>
    <img class="profile-img" src="images/profile pics.jpg" alt="profile picture">
    <p class="profile-name"><em>Matthew Aloba</em></p>
-   <div class="col-wide">
+   <div class="col-wide" id="nav-link">
      <a href="about.html">About me</a>
      <a href="services.html">What I do</a>
      <a href="services.html">Experience</a>
      <a href="about.html">Education</a>
      <a href="services.html">Testimonials</a>
-     <a href="services.html">Contact me</a>
+     <a href="#" id="contactMe">Contact me</a>
      
      <ul class="social">
        <li><a href="http://ng.linkedin.com/pub/aloba-matthew/87/856/366/"><img src="images/linkedin2.png"></a></li>
@@ -29,7 +30,7 @@
        <li><a href="http://twitter.com/Mdgc_CEO?s=09"><img src="images/twitter2.png"></a></li>
        <li><a href="http://facebook.com/martmaldigital"><img src="images/facebook2.png"></a></li>
      </ul>
- 
+ </div>
 </div>
   </header>
    <section id="main">
@@ -40,13 +41,40 @@
         <p>based in Lagos, Nigeria.</p>
        </div>
        <div>
-       <button onclick="openSlideMenu()">Click</button> 
+       <button id="nav-open">Click</button> 
        <span> to view more</span>
       </div>
    </section> 
+          
+            <!--modal form for contact me -->
+<div id="contact_me" class="modal">
+
+<form class="modal-content animate" action="mailto:martmaldigital@gmail.com" method="GET">
+    <h3 class="modal_header">contact me</h3>
+  <div class="imgcontainer">
+    <span class="close" id="close_contact">&times;</span>
+  </div>
+
+  <div class="modal-container">
+    <label for="sender_name"><b>Name</b> </label>
+    <input type="text1" name="sender_name" placeholder="Enter your fullname" required>
+      <label for="sender_email"><b>Email-Address</b></label>
+      <input type="email" name="sender_email" placeholder="example@gmail.com" required>
+  
+    <label for="sender_reason"><b>Reason for contact</b></label>
+    <textarea placeholder="You can ask me anything you want to know, I'll gladly reply at the shortest possible time. Thank you."></textarea>
+  </div>
+
+  <div class="modal-container">
+    <button type="submit" value="send" class="postbtn">Send</button>
+
+  </div>
+</form>
+</div>
+
    <footer>
     <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Matthew Aloba</p>
   </footer>
-  <script src="script.js"></script>
+  <script src="/Script/script.js"></script>
 </body>
 </html>
