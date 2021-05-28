@@ -10,13 +10,39 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <header>
+   <div id="side-menu" class="side-nav">
+  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+   <img class="profile-img" src="images/profile pics.jpg" alt="profile picture">
+   <p class="profile-name"><em>Matthew Aloba</em></p>
+   <div class="col-wide">
+     <a href="about.html">About me</a>
+     <a href="services.html">What I do</a>
+     <a href="services.html">Experience</a>
+     <a href="about.html">Education</a>
+     <a href="services.html">Testimonials</a>
+     <a href="services.html">Contact me</a>
+     
+     <ul class="social">
+       <li><a href="http://ng.linkedin.com/pub/aloba-matthew/87/856/366/"><img src="images/linkedin2.png"></a></li>
+       <li><a href="https://github.com/martmaldigital"><img src="images/github2.png"></a></li>
+       <li><a href="http://twitter.com/Mdgc_CEO?s=09"><img src="images/twitter2.png"></a></li>
+       <li><a href="http://facebook.com/martmaldigital"><img src="images/facebook2.png"></a></li>
+     </ul>
+ 
+</div>
+  </header>
    <section id="main">
        <div class="info">
         <div id="clock"></div>
-        <h2>Welcome,</h2>
+        <h2 id="greet"></h2>
         <h1>I'm Matthew Aloba</h1>
         <p>based in Lagos, Nigeria.</p>
        </div>
+       <div>
+       <button onclick="openSlideMenu()">Click</button> 
+       <span> to view more</span>
+      </div>
    </section> 
    <footer>
     <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Matthew Aloba</p>
