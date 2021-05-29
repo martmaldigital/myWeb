@@ -17,11 +17,11 @@
    <img class="profile-img" src="images/profile pics.jpg" alt="profile picture">
    <p class="profile-name"><em>Matthew Aloba</em></p>
    <div class="col-wide" id="nav-link">
-     <a href="about.html">About me</a>
-     <a href="services.html">What I do</a>
-     <a href="services.html">Experience</a>
-     <a href="about.html">Education</a>
-     <a href="services.html">Testimonials</a>
+     <a href="#" id="aboutMe">About me</a>
+     <a href="#" id="aboutMe2">What I do</a>
+     <a href="#" id="experience">Experience</a>
+     <a href="#" id="education">Education</a>
+     <a href="#" id="testimonials">Testimonials</a>
      <a href="#" id="contactMe">Contact me</a>
      
      <ul class="social">
@@ -34,17 +34,34 @@
 </div>
   </header>
    <section id="main">
-       <div class="info">
-        <div id="clock"></div>
-        <h2 id="greet"></h2>
-        <h1>I'm Matthew Aloba</h1>
-        <p>based in Lagos, Nigeria.</p>
-       </div>
-       <div>
-       <button id="nav-open">Click</button> 
-       <span> to view more</span>
-      </div>
-   </section> 
+    <div class="info">
+    <div id="clock"></div>
+      <h2 id="greet"></h2>
+      <h1>I'm Matthew Aloba</h1>
+      <p>based in Lagos, Nigeria.</p>
+    </div>
+    <div>
+      <button id="nav-open">Click</button> 
+      <span> to view more</span>
+    </div>
+   </section>
+
+   <div id="about_me" class="modal">
+    <div class="modal-content animate">
+      <h3 class="modal_header">about me</h3>
+    <div class="imgcontainer">
+      <span class="close" id="close_about">&times;</span>
+    </div>
+    <div class="modal-container">
+    <div class="modal-info">
+      <h2>PROFESSIONAL SUMMARY</h2>
+      <img class="about-img" src="images/about1.jpg" alt="profile picture">
+      <p>A hard working, self-motivated, result oriented individual who is enthusiastic about creating tech solutions to solving human numerous problems. <em>Emotionally intelligent:</em> able to utilize self and others’ emotions in healthy and productive ways. <em>Tech savvy:</em> designer who expertly researches and develops emerging concepts and trends towards achieving corporate goals with appropriate rewards. Effectively understand concerns of others and practice “listen-first” policy and anticipating others’ needs before expression. <em>Advocacy:</em> A passionate Sdgs preacher who spent all his NYSC days leading a team of Sdgs enthusiast in furthering the achievement of the set goals in Nigeria.</p>
+    </div>
+    </div> 
+    </div>
+    </div>
+    
           
             <!--modal form for contact me -->
 <div id="contact_me" class="modal">

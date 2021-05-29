@@ -38,7 +38,7 @@ window.onload=function()
   setInterval(digitalclock,1000)
 };
 
-// function to open the side/close navigation and open/close modal
+// function to open the side/close navigation and open/close contact me modal
 let modal1 = document.getElementById("contact_me");
 let openContact = document.getElementById("contactMe");
 let closeContact = document.getElementById("close_contact");
@@ -67,8 +67,25 @@ closeContact.onclick = function() {
   modal1.style.display = "none";
 }
 
+
+
+// function to open/close about me modal
+let modal2 = document.getElementById("about_me");
+let openAbout = document.getElementById("aboutMe");
+let closeAbout = document.getElementById("close_about");
+
+openAbout.onclick = function() {
+  modal2.style.display = "block";
+}
+closeAbout.onclick = function() {
+  modal2.style.display = "none";
+}
+
 window.onclick = function(event) {
-  if (event.target==modal1) {
-    modal1.style.display = "none";
+  if (event.target==modal2) {
+    modal2.style.display = "none";
   }
 }
+
+  
+
