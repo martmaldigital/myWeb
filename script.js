@@ -109,3 +109,15 @@ closeExp.onclick = function() {
   modal4.style.display = "none";
 }
 
+// function to open/close education
+let modal5 = document.getElementById("edu_me");
+let openEdu = document.getElementById("eduMe");
+let closeEdu = document.getElementById("close_edu");
+
+openEdu.onclick = function() {
+  modal5.style.display = "block";
+}
+closeEdu.onclick = function() {
+  modal5.style.display = "none";
+}
+
