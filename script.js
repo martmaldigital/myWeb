@@ -67,8 +67,6 @@ closeContact.onclick = function() {
   modal1.style.display = "none";
 }
 
-
-
 // function to open/close about me modal
 let modal2 = document.getElementById("about_me");
 let openAbout = document.getElementById("aboutMe");
@@ -86,6 +84,16 @@ window.onclick = function(event) {
     modal2.style.display = "none";
   }
 }
+// function to open/close what-I-do
+let modal3 = document.getElementById("what_me");
+let openWhat = document.getElementById("whatMe");
+let closeWhat = document.getElementById("close_what");
 
-  
+openWhat.onclick = function() {
+  modal3.style.display = "block";
+}
+closeWhat.onclick = function() {
+  modal3.style.display = "none";
+}
+
 
