@@ -37,9 +37,10 @@ input[type=text1], select, textarea {
     padding: 10px 18px;
   }
   .modal-info p {
-font-size: 22px;
-color: #141844;
+font-size: 21px;
+color: #0e1135;
   }
+
   .postbtn {
     background-color: burlywood;
   }
