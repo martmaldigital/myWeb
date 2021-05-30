@@ -31,6 +31,11 @@ input[type=text1], select, textarea {
       margin-bottom: -10px;
       text-transform: uppercase;
   }
+  .sub_header {
+    color: rgb(0, 0, 27);
+    margin-bottom: -15px;
+    font-size: 20px;
+  }
   .modal-info {
     background-color: rgb(243, 230, 213);
     text-align: justify;
