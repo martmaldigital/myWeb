@@ -84,6 +84,7 @@ window.onclick = function(event) {
     modal2.style.display = "none";
   }
 }
+
 // function to open/close what-I-do
 let modal3 = document.getElementById("what_me");
 let openWhat = document.getElementById("whatMe");
@@ -96,4 +97,15 @@ closeWhat.onclick = function() {
   modal3.style.display = "none";
 }
 
+// function to open/close experience
+let modal4 = document.getElementById("exp_me");
+let openExp = document.getElementById("expMe");
+let closeExp = document.getElementById("close_exp");
+
+openExp.onclick = function() {
+  modal4.style.display = "block";
+}
+closeExp.onclick = function() {
+  modal4.style.display = "none";
+}
 
