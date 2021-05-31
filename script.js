@@ -132,3 +132,4 @@ openTest.onclick = function() {
 closeTest.onclick = function() {
   modal6.style.display = "none";
 }
+
