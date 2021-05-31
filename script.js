@@ -121,3 +121,14 @@ closeEdu.onclick = function() {
   modal5.style.display = "none";
 }
 
+// function to open/close testimonials
+let modal6 = document.getElementById("test_me");
+let openTest = document.getElementById("testMe");
+let closeTest = document.getElementById("close_test");
+
+openTest.onclick = function() {
+  modal6.style.display = "block";
+}
+closeTest.onclick = function() {
+  modal6.style.display = "none";
+}
