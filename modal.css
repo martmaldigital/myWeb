@@ -20,7 +20,7 @@ input[type=text1], select, textarea {
   }
   
   .about-img {
-    max-width: 22%;
+    max-width: 20%;
     border-radius: 5%;
     float: right;
     margin-left: 20px;
